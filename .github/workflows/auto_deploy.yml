@@ -25,11 +25,13 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
           node-version: 12
-        
-      - name: Creating build
-        run: npm run build
           
+      - name: Installing yarn
+        run: npm install -g yarn
         
+      - name: Creating yarn
+        run: yarn build
+          
       - name: Installing Surge
         run: npm install --global surge
       

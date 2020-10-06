@@ -32,7 +32,7 @@ jobs:
         with:
           cmd: install
         
-      - name: Installing yarn build
+      - name: Creating build
         run: yarn build
           
         

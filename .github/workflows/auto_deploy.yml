@@ -26,11 +26,8 @@ jobs:
         with:
           node-version: 12
           
-      - name: Installing yarn
-        run: npm install -g yarn
-        
-      - name: Creating yarn
-        run: yarn build
+      - name: Creating build
+        run: npm run build
           
       - name: Installing Surge
         run: npm install --global surge

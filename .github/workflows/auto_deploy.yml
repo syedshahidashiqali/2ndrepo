@@ -27,8 +27,8 @@ jobs:
           node-version: 12
 
       # Runs a set of commands using the runners shell
-      - name: Installing Build
-        run: npm run build
+      - name: Installing yarn
+        uses: comchangs/action-yarn@v0.1-beta
         
       - name: Installing Surge
         run: npm install --global surge

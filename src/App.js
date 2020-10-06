@@ -7,6 +7,8 @@ function App() {
     <div className="App">
       <h1>Hello, World from Shahid!</h1>
       <h1>Hello, world again!</h1>
+      <h2>Hello, world from all of us!</h2>
+
     </div>
   );
 }
